@@ -1,1 +1,2 @@
-# 1-pratica-git-github-basico
+# Prática de Git e Github Básico
+
