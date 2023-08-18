@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-# Repo de Testes
-
-Vamos usar este repo para testar.
-=======
 # Prática de Git e Github Básico
 
 Vamos iniciar a trabalhar em equipe usando git e github. Assim:
@@ -36,4 +31,3 @@ Vamos iniciar a trabalhar em equipe usando git e github. Assim:
 será necessário fazer o "pull" e resolver os conflitos.
 
 No final, compartilhe o link no forum do moodle.
->>>>>>> 07367f319ea7d0120b7c6ea4e6886c01ceb1efe8
