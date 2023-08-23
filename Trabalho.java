@@ -1,4 +1,4 @@
-import java,util.ArrayList;
+import java.util.ArrayList;
 
 public class main {
 public static void main(String Args[]){
@@ -31,7 +31,6 @@ static boolean hasRepeat(ArrayList<Integer> l) {
 }
 
 
-import java.util.ArrayList;
 
 public class ExemploUniao {
     public static ArrayList<Integer> uniao(ArrayList<Integer> l1, ArrayList<Integer> l2) {
