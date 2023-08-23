@@ -16,6 +16,21 @@ listWithoutRepeats.add(7);
 System.out.println(hasRepeat(listWithRepeats));
 System.out.println(hasRepeat(listWithoutRepeats));
 
+ ArrayList<Integer> lista1 = new ArrayList<>();
+        lista1.add(1);
+        lista1.add(2);
+        lista1.add(3);
+
+        ArrayList<Integer> lista2 = new ArrayList<>();
+        lista2.add(3);
+        lista2.add(4);
+        lista2.add(5);
+
+        ArrayList<Integer> resultado = uniao(lista1, lista2);
+
+        System.out.println("União da lista1 e lista2: " + resultado);
+
+
 }
 
 static boolean hasRepeat(ArrayList<Integer> l) {
@@ -106,6 +121,19 @@ import java.util.ArrayList;
 
 public class ExemploUniao {
     public static ArrayList<Integer> uniao(ArrayList<Integer> l1, ArrayList<Integer> l2) {
+ ArrayList<Integer> lista1 = new ArrayList<>();
+        lista1.add(1);
+        lista1.add(2);
+        lista1.add(3);
+
+        ArrayList<Integer> lista2 = new ArrayList<>();
+        lista2.add(3);
+        lista2.add(4);
+        lista2.add(5);
+
+        ArrayList<Integer> resultado = uniao(lista1, lista2);
+
+        System.out.println("União da lista1 e lista2: " + resultado);
         ArrayList<Integer> resultado = new ArrayList<>();
 
         
@@ -125,19 +153,4 @@ public class ExemploUniao {
         return resultado;
     }
 
-    public static void main(String[] args) {
-        ArrayList<Integer> lista1 = new ArrayList<>();
-        lista1.add(1);
-        lista1.add(2);
-        lista1.add(3);
-
-        ArrayList<Integer> lista2 = new ArrayList<>();
-        lista2.add(3);
-        lista2.add(4);
-        lista2.add(5);
-
-        ArrayList<Integer> resultado = uniao(lista1, lista2);
-
-        System.out.println("União da lista1 e lista2: " + resultado);
-    }
 }
